@@ -1,0 +1,41 @@
+.add-user{
+    input{
+        padding: 24px;
+        border: 1px solid rgba(109, 110, 118, 0.5);
+        border-radius: 2px;
+        caret-color: red;
+        color: blue;
+    }
+    ::placeholder{
+        color: blue;
+        font-size: 16px;
+    }
+    button{
+        padding: 24px;
+        background: #FFD050;
+        border: 1px solid #FFD050;
+        font-family: 'Sen';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .red{
+        border: 2px solid red;
+    }
+    .green{
+        border: 2px solid green;
+    }
+}
+
+@media screen and (max-width:576px) {
+.add-user{
+    input{
+        padding: 12px;
+    }
+    button{
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+}

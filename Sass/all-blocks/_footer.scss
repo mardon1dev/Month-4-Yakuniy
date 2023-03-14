@@ -1,0 +1,33 @@
+footer{
+    background: #232536;
+    height: 160px;
+
+}
+.footer-main{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+.footer-left span{
+    color: white;
+    opacity: .7;
+}
+.footer-left a{
+    color: white;
+    text-decoration: none;
+}
+.social{
+    display: flex;
+    gap: 20px;
+}
+.social img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}

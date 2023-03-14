@@ -1,0 +1,87 @@
+.hero-start{
+    height: 400px;
+    background-color: #F4F0F8;
+}
+.startup-main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(80%);
+}
+.startup-main h2{
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #232536;
+}
+.startup-main p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6D6E76;
+}
+.startup-main span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #232536;
+}
+.startUpPost{
+    margin-top: 60px;
+}
+.inputSearch{
+    padding: 24px;
+    // height: 80px;
+    border: 1px solid rgba(109, 110, 118, 0.5);
+    border-radius: 2px;
+    caret-color: red;
+    color: blue;
+}
+::placeholder{
+    color: blue;
+    font-size: 16px;
+}
+@media screen and (max-width: 576px) {
+    .inputSearch{
+        padding: 12px;
+    }
+    ::placeholder{
+        font-size: 12px;
+    }
+}
+.posts{
+    margin-top: 40px;
+}
+.post{
+    display: flex;
+    &-main a{
+        text-decoration: none;
+        font-family: 'Sen';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        color: #232536;
+    }
+    img{
+        width: 100%;
+    }
+}
+.business{
+    color: #592EA9;
+}

@@ -1,0 +1,64 @@
+.popular-blogs{
+    margin-top: 100px;
+}
+
+.blogs{
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+.popular-blogs hr{
+    background: #4C4C4C;
+}
+
+.card img{
+    height: 250px;
+    object-fit: cover;
+}
+.card-body{
+    h5{
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+}
+.card a{
+    text-decoration: none;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    color: #232536;
+}
+.card p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #232536;
+    opacity: 0.7;
+}
+
+.card-spans{
+    display: flex;
+    gap: 10px;
+    color: white;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #4C4C4C;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.card-spans span:nth-child(2){
+    padding-left: 5px;
+    border-left: 3px solid #4C4C4C;
+}
+.purple-span{
+    color: purple;
+}
+.purple-span a{
+    color: purple;
+    font-size: 16px;
+}

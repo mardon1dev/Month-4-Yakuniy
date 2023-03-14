@@ -1,0 +1,39 @@
+.hero-allposts{
+    // height: 520px;
+    background-color: #F4F0F8;
+    display: flex;
+    align-items: center;
+}
+.allposts-main{
+    padding: 100px 0;
+    display: flex;
+}
+.allposts-button{
+    background: #FFD050;
+    border: 1px solid #FFD050;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #232536;
+    padding: 16px 48px;
+    transition: .3s ease-in-out;
+}
+.allposts-button:hover{
+    background: transparent;
+    color: #FFD050;
+    transition: .3s ease-in-out;  
+}
+@media screen and (max-width:576px) {
+    .allposts-main{
+        padding: 50px 0;
+
+    }
+    .hero-button{
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+}

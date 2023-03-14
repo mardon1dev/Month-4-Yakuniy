@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./Sass/main.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header id="header" class="header fixed-top">
+        <div class="navigation">
+          <div class="container">
+            <div class="nav-menu d-flex justify-content-between align-items-center">
+            <a href="index.html" class="logo"><img src="./images/Finsweet.svg" alt=""></a>
+            <nav class="navbar ms-auto">
+              <ul class="navbar-menu gap-sm-5 gap-5">
+                <li><a class="nav-item" href="./index.html">Home</a></li>
+                <li><a class="nav-item" href="./blog.html">Blog</a></li>
+                <li><a class="nav-item" href="allPosts.html">About us</a></li>
+                <li><a class="nav-item" href="register.html">Register</a></li>
+              </ul>
+            </nav>
+            <a href="./login.html" class="button d-flex align-items-center justify-content-center text-decoration-none">Login</a>
+
+            <div class="menu-toggler">
+              <span class="menu-toggler-span1"></span>
+              <span class="menu-toggler-span2"></span>
+              <span class="menu-toggler-span3"></span>
+            </div>
+            </div>
+          </div>
+          </div>
+        </div>
+    </header>
+
+            <div class="container">
+                <div class="app-post mt-5 pt-5">
+                    <h1 class="blog-h1">Add post</h1>
+                    <form id="user-form" class="d-flex flex-column w-100">
+                        <input type="hidden" id="id-change" name="id" required>
+                        <input type="text" class="w-50" id="post-name" name="name" required>
+                        <input type="file" class="w-50" name="file" id="file">
+                        <textarea id="text" class="w-50" name="message" rows="10" cols="50"></textarea>
+                        <button type="submit" class="w-50" id="create-button">Save</button>
+                    </form>
+                </div>
+                <div class="added-post">
+                    <div class="row addpost gy-5 justify-content-center">
+                        
+                    </div>
+                </div>
+            </div>
+
+
+    <footer class="footer">
+        <div class="container">
+          <div class="footer-main ">
+            <div class="footer-left">
+              <span>Finstreet 118 2561 Fintown</span>
+              <span><a href="Hello@finsweet.com">Hello@finsweet.com</a> 020 7993 2905</span>
+            </div>
+            <div class="social">
+              <img src="./images/icons/facebook.svg" alt="facebook">
+              <img src="./images/icons/twitter.svg" alt="twitter">
+              <img src="./images/icons/instagram.svg" alt="instagram">
+              <img src="./images/icons/linkedin.svg" alt="linkedin">
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script src="./bootstrap/bootstrap.bundle.js"></script>
+    <script src="./script.js"></script>
+    <script src="./allJavaScripts/blog.js"></script>
+</body>
+</html>

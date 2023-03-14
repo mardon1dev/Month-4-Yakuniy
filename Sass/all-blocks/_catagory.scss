@@ -1,0 +1,42 @@
+.catagory{
+    margin-top: 60px;
+}
+.type{
+    border: 1px solid #6D6E76;
+    padding: 32px;
+    border-radius: 5px;
+    transition: .3s ease-in-out;
+}
+.type .img-wrapper{
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+.type span{
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    color: #232536;
+}
+.type p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6D6E76;
+}
+.type a{
+    text-decoration: none;
+}
+.type:hover{
+    transition: .3s ease-in-out;
+    background: #FFD050;
+    border:1px solid  #FFD050;
+}

@@ -1,0 +1,217 @@
+.header{
+    height: 80px;
+}
+.navigation{
+    width: 100%;
+    height: 80px;
+    background-color: #232536;
+    position: relative;
+}
+.navbar-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 50px;
+    padding: 0;
+}
+.nav-menu{
+    height: 80px;
+    width: 100%;
+    background:#232536;
+}
+.nav-item{
+    text-decoration: none;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.button{
+    width: 147px;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #232536;
+    padding: 16px 48px;
+    background-color: #FFFFFF;
+    border: 1px solid #232536;
+    transition: .5s ease-in-out;
+    border-radius: 5px;
+    margin-left: 20px;
+
+}
+.button:hover{
+    font-size: 20px;
+    background-color: #232536;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    transition: .5s ease-in-out;
+}
+.menu-toggler{
+    display: none;
+}
+@media screen and (max-width:768px) {
+    .button{
+        width: 100px;
+    }
+    .menu-toggler{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;  
+        margin-left: 20px; 
+        margin-right: 20px;
+    }
+    .menu-toggler span{
+        width: 30px;
+        height: 5px;
+        transition: 0.4s;
+        background-color: orangered;
+        border-radius: 5px;
+    }
+    .menu-toggler2{
+        position: relative;
+    }
+    .menu-toggler2 span:nth-child(1){
+        position: absolute;
+        transform: rotate(-45deg) translate(-6px, 6px);
+        transition: .4s ease-in-out;
+    }
+    .menu-toggler2 span:nth-child(2){
+        position: absolute;
+        transform: rotate(-135deg) translate(-6px, -6px);
+        transition: .4s ease-in-out;
+    }
+
+    .menu-toggler2 span:nth-child(3){
+        opacity: 0;
+
+    }
+    .navbar-menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        position: absolute;
+        height: 85vh;
+        top: 48px;
+        width: 300px;
+        background-color: #232536;
+        right: -252px;
+        transform: translateY(-115%);
+        transition: .7s ease-in-out;
+        padding-top: 50px;
+        margin-left: 50px;
+    }
+    .navbar-menu2{
+        transform: translateY(0%);
+        transition: .7s ease-in-out;
+    }
+}
+
+.hero{
+    background: {
+        image: url(../../images/bg-image.png);
+        position: center;
+        size: cover;
+    }
+    height: 85vh;
+    display: flex;
+}
+.hero-span{
+    display: block;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    margin-top: 100px;
+}
+.hero-title{
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    color: #FFFFFF;
+    max-width: 800px;
+    width: 100%;
+    padding-right: 50px;
+    margin-top: 24px;
+}
+.hero-spans{
+    display: flex;
+    gap: 10px;
+    color: white;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.hero-spans span:nth-child(2){
+    padding-left: 5px;
+    border-left: 1px solid white;
+}
+.yellow-span{
+    color: yellow;
+}
+.hero-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    max-width: 600px;
+    width: 100%;
+}
+.hero-button{
+    background: #FFD050;
+    border: 1px solid #FFD050;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #232536;
+    padding: 16px 48px;
+    transition: .3s ease-in-out;
+}
+.hero-button:hover{
+    background: transparent;
+    color: #FFD050;
+    transition: .3s ease-in-out;  
+}
+@media screen and (max-width:576px) {
+    .hero-span{
+        margin-top: 40px;  
+        font-size: 12px;     
+    }
+    .hero-title{
+        font-size: 34px;
+        margin-top: 8px;
+        padding-right: 0;
+    }
+    .hero-spans{
+        margin-top: 12px;
+    }
+    .hero-button{
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+}
+
+footer{
+    margin-top: 50px;
+}
